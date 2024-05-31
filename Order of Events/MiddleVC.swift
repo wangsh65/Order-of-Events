@@ -9,27 +9,46 @@ import UIKit
 
 class MiddleVC: UITableViewController {
 
+
+    @IBOutlet weak var MiddleViewController: UILabel!
+    
+    var eventNumber: Int =  1
+    
+    func addEvent(from: String) {
+        if let existingText = MiddleViewController.text {
+            MiddleViewController.text = "\(existingText)\nEvent number \(eventNumber) was \(from)"
+            eventNumber += 1
+        }
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        addEvent(from: "viewDidLoad")
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    
+    override func viewWillAppear( _ animated : Bool) {
+        super.viewWillAppear(animated)
+        addEvent(from: "viewWillAppear")
+    }
+    
+    override func viewDidAppear(_ animated : Bool){
+        super.viewDidAppear(animated)
+        addEvent(from: "viewDidAppear")
+    }
+    override func viewWillDisappear( _ animated : Bool){
+        super.viewWillDisappear(animated)
+        addEvent(from: "viewWillDisappear")
+    }
+    override func viewDidDisappear( _ animated : Bool){
+        super.viewDidDisappear(animated)
+        addEvent(from: "viewDidDisappearr")
+    }
+
 
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
