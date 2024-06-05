@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A438076C-B061-49C8-8EF4-F53CFA321F08"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F268E86-FF11-46FC-8DFA-2AA2DDA89C41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order of Events/MiddleVC2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MiddleVC2"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1F268E86-FF11-46FC-8DFA-2AA2DDA89C41 - d04700484939c731"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Order_of_Events.MiddleVC2.eventNumber.getter : Swift.Int"
+                  moduleName = "Order of Events"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shelly/Desktop/LearningXcode/Order%20of%20Events/Order%20of%20Events/MiddleVC2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1F268E86-FF11-46FC-8DFA-2AA2DDA89C41 - 9bcdb09cbad81168"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Order_of_Events.MiddleVC2.eventNumber.setter : Swift.Int"
+                  moduleName = "Order of Events"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shelly/Desktop/LearningXcode/Order%20of%20Events/Order%20of%20Events/MiddleVC2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1F268E86-FF11-46FC-8DFA-2AA2DDA89C41 - b06cf63092bee259"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Order_of_Events.MiddleVC2.eventNumber.modify : Swift.Int"
+                  moduleName = "Order of Events"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shelly/Desktop/LearningXcode/Order%20of%20Events/Order%20of%20Events/MiddleVC2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1F268E86-FF11-46FC-8DFA-2AA2DDA89C41 - 67449806de899e7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Order_of_Events.MiddleVC2.eventNumber.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Order of Events"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shelly/Desktop/LearningXcode/Order%20of%20Events/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1F268E86-FF11-46FC-8DFA-2AA2DDA89C41 - 8814f5484e5214e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Order_of_Events.MiddleVC2.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Order_of_Events.MiddleVC2"
+                  moduleName = "Order of Events"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shelly/Desktop/LearningXcode/Order%20of%20Events/Order%20of%20Events/MiddleVC2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "1F268E86-FF11-46FC-8DFA-2AA2DDA89C41 - cb42304ca9d6157e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Order_of_Events.MiddleVC2.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Order_of_Events.MiddleVC2&gt;"
+                  moduleName = "Order of Events"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shelly/Desktop/LearningXcode/Order%20of%20Events/Order%20of%20Events/MiddleVC2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0F39178-79C6-4224-921F-DE3B566900CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order of Events/MiddleVC2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MiddleVC2"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

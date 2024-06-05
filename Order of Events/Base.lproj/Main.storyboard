@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7un-vE-sNk">
-                                <rect key="frame" x="99.666666666666686" y="408.66666666666669" width="194" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7un-vE-sNk">
+                                <rect key="frame" x="100" y="409" width="194" height="247"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show me the life cycle"/>
                                 <connections>
@@ -36,21 +36,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="891" y="-27"/>
+            <point key="canvasLocation" x="890.83969465648852" y="-27.464788732394368"/>
         </scene>
-        <!--MiddleVC-->
+        <!--MiddleVC2-->
         <scene sceneID="JUa-eb-qoF">
             <objects>
-                <viewController id="afU-JG-kmv" customClass="MiddleVC" customModule="Order_of_Events" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="afU-JG-kmv" customClass="MiddleVC2" customModule="Order_of_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UxT-AQ-uYP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Northing has happened yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKZ-4D-PzV">
-                                <rect key="frame" x="77.666666666666686" y="123" width="238" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Northing has happened yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKZ-4D-PzV">
+                                <rect key="frame" x="78" y="123" width="238" height="417"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" systemColor="systemBlueColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" red="0.94328010080000002" green="0.55421994289999998" blue="0.52975441180000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="1" green="0.87687276219999999" blue="0.24078066300000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWR-J6-r2c">
                                 <rect key="frame" x="132" y="763" width="129" height="35"/>
@@ -72,17 +72,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="djG-1E-das"/>
                     <connections>
-                        <outlet property="MiddleViewController" destination="ZKZ-4D-PzV" id="D4o-bF-bmH"/>
+                        <outlet property="MiddleViewController" destination="ZKZ-4D-PzV" id="7a2-W8-ttR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uwh-IL-IYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1619" y="-27"/>
+            <point key="canvasLocation" x="1624" y="-27"/>
         </scene>
-        <!--LastVC-->
+        <!--LastVC2-->
         <scene sceneID="oV9-U1-vK5">
             <objects>
-                <viewController id="11O-FO-zNF" customClass="LastVC" customModule="Order_of_Events" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="11O-FO-zNF" customClass="Last_VC2" customModule="Order_of_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8y7-LQ-rmU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -128,7 +128,7 @@
     </scenes>
     <resources>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
